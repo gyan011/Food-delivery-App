@@ -43,39 +43,30 @@ A full-stack Food Delivery Application with Stripe-powered payments and a built-
 git clone https://github.com/gyan011/food-delivery-app.git
 cd food-delivery-app
 
-Install Dependencies
+### 2. Install Dependencies
 
-1. Backend
- 
-   cd backend
-   npm install
-3. Frontend
+## Backend
+ - cd backend
+ - npm install
 
-   cd ../frontend
-   npm install
+## Frontend
+- cd frontend
+- npm install
 
-Running the App
+### Running the App
 
-Start Backend
-
-  cd backend
+## Start Backend
+- cd backend
+- npm start
   
-  npm start
-  
-Start Frontend
+## Start Frontend
+- cd frontend
+- npm run dev
 
-  cd frontend
-  
-  npm run dev
-
-🌐 Environment Variables
-
-PORT=4000
-
-MONGO_URI=your_mongodb_uri
-
-JWT_SECRET=your_jwt_secret
-
-STRIPE_SECRET_KEY=your_stripe_secret_key
+### 🌐 Environment Variables
+- PORT=4000
+- MONGO_URI=your_mongodb_uri
+- JWT_SECRET=your_jwt_secret
+- STRIPE_SECRET_KEY=your_stripe_secret_key
 
 
