@@ -57,20 +57,25 @@ Install Dependencies
 Running the App
 
 Start Backend
+
   cd backend
   
   npm start
   
 Start Frontend
-  cd ../frontend
+
+  cd frontend
   
   npm run dev
 
 🌐 Environment Variables
 
 PORT=4000
+
 MONGO_URI=your_mongodb_uri
+
 JWT_SECRET=your_jwt_secret
+
 STRIPE_SECRET_KEY=your_stripe_secret_key
 
 
