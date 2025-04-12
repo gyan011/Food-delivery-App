@@ -43,23 +43,31 @@ A full-stack Food Delivery Application with Stripe-powered payments and a built-
 git clone https://github.com/gyan011/food-delivery-app.git
 cd food-delivery-app
 
-### 2. Install Dependencies
+## 2. Install Dependencies
 
-## Backend
+### Admin
+- cd admin
+- npm install
+
+### Backend
  - cd backend
  - npm install
 
-## Frontend
+### Frontend
 - cd frontend
 - npm install
 
-### Running the App
+## Running the App
 
-## Start Backend
+### Start Admin
+- cd admin
+- npm run dev
+
+### Start Backend
 - cd backend
 - npm start
   
-## Start Frontend
+### Start Frontend
 - cd frontend
 - npm run dev
 
