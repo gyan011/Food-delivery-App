@@ -44,22 +44,30 @@ git clone https://github.com/gyan011/food-delivery-app.git
 cd food-delivery-app
 
 Install Dependencies
+
 1. Backend
+ 
    cd backend
    npm install
-2. Frontend
+3. Frontend
+
    cd ../frontend
    npm install
 
 Running the App
+
 Start Backend
   cd backend
+  
   npm start
+  
 Start Frontend
   cd ../frontend
+  
   npm run dev
 
 🌐 Environment Variables
+
 PORT=4000
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
